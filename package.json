@@ -1,0 +1,35 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is React "
+  ,
+  "scripts": {
+    "test": "jest",
+    "start": "rm -rf .parcel-cache && parcel",
+    "build": "rm -rf .parcel-cache && parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishitaSharma30/REACT.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Ishita Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishitaSharma30/REACT/issues"
+  },
+  "homepage": "https://github.com/ishitaSharma30/REACT#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserlist": [
+    "last 2 Chrome versions"
+  ]
+}
