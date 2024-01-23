@@ -1,38 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-//const heading = React.createElement("h1", { id: "heading" }, "Hello World from React");
-//console.log(heading);
+const heading = React.createElement("h1", {id: "heading"}, "Hello React");
 
-//root.render(heading);
+const jsxHeading = <h1 id="heading"> React using JSX </h1>;
+console.log(jsxHeading);
 
-/*
-<div id = "parent">
-    <div id = "child">
-        <h1> I am h1 tag </h1>
-    </div>
-</div>
-
-implement nested div using react
-*/
-
-const parent = React.createElement(
-    "div", 
-    {id: "parent"},
-    [
-        React.createElement(
-            "div", {id: "child"},[
-            React.createElement("h1", {}, "I'm h1 tag"),
-            React.createElement("h2", {}, "I'm h2 tag")
-        ]),
-        React.createElement(
-            "div", {id: "child2"},[
-            React.createElement("h1", {}, "I'm h1 tag"),
-            React.createElement("h2", {}, "I'm h2 tag")
-        ])
-    ]
-);
-
-console.log(parent);
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+const root=ReactDOM.createRoot(document.getElementById("root"));
+root.render(jsxHeading);
