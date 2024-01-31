@@ -2,7 +2,7 @@ const resList =[
     {
         "info": {
           "id": "22037",
-          "name": "Wow! Momo",
+          "name": "Momo",
           "cloudinaryImageId": "5a148e63e9c54942e37627da1aa156be",
           "locality": "Brigade Road",
           "areaName": "Brigade Road",
